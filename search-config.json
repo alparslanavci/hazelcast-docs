@@ -165,6 +165,18 @@
       "selectors_key": "cloud"
     },
     {
+    "url": "https://docs.hazelcast.com/operator/(?P<version>.*?)/",
+    "tags": [
+      "operator-5.13"
+    ],
+    "variables": {
+      "version": [
+        "5.13"
+      ]
+    },
+    "selectors_key": "operator"
+  },
+  {
       "url": "https://docs.hazelcast.com/operator/(?P<version>.*?)/",
       "tags": [
         "operator-5.0"
